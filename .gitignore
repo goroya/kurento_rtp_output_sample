@@ -61,3 +61,6 @@ typings/
 
 .idea/
 build/
+
+*.mp4
+src/video/
