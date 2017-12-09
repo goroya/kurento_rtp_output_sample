@@ -1,0 +1,2 @@
+kurento:
+  ws_url: ws://192.168.11.10:8888/kurento

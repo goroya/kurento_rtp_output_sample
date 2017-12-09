@@ -1,0 +1,23 @@
+{
+  "name": "kurento_rtp_node_sample",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node ./build/main.js",
+    "dev": "backpack dev",
+    "build": "backpack build",
+    "postinstall": "backpack build"
+  },
+  "dependencies": {
+    "backpack-core": "^0.4.3",
+    "fs-extra": "^4.0.3",
+    "js-yaml": "^3.10.0",
+    "kurento-client": "^6.6.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.3",
+    "eslint": "^4.13.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-babel": "^4.1.2",
+    "eslint-plugin-node": "^5.2.1"
+  }
+}
