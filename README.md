@@ -10,4 +10,4 @@ WebRTCのMediaServerでRTPで配信するとき方法のサンプルです。
 1. npm installしてください
 1. src/output.sdpの下記のラインをRTPを受信するPCのIPアドレスに書き換えてください
 
-  c=IN IP4 192.168.11.4
+> c=IN IP4 192.168.11.4
