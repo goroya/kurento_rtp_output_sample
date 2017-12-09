@@ -3,7 +3,7 @@
 これは WebRTC Advent Calendar 2017の9日目の記事です。
 
 ## 内容
-WebRTCのMediaServerでRTPで配信するとき方法のサンプルです。
+WebRTCのMediaServer KurentoでRTPで配信するとき方法のサンプルです。
 
 ## 準備
 FFMPEGをパスの通る状態にしてください
