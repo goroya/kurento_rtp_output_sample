@@ -1,2 +1,8 @@
 kurento:
   ws_url: ws://192.168.11.10:8888/kurento
+video:
+  src: http://www.gomplayer.jp/img/sample/mp4_h264_aac.mp4
+record:
+  path: file:///home/test/Desktop/record
+ffmpeg_command: 'ffmpeg -re -i ${video_path} -vcodec copy -an -f rtp rtp://192.168.11.10:4000 -vn -acodec copy -f rtp  rtp://192.168.11.10:4002'
+
